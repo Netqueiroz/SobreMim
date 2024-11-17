@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento HTML e CSS</title>
+
+</head>
+<body>
+    <header>
+        <h1>Site de Estudos Fatec</h1>
+        <p><strong>Este site</strong> é uma breve descrição sobre as minhas Habilidades, projetos, ambições e cursos.</p>
+    </header>
+    <main>
+        <!--Inrodução!!!-->
+        <section>
+            <h2>
+                Sobre este site!
+            </h2>
+            <p>
+                <strong>Este site</strong> tem o intuíto de treinamento em questões relacionadas ao <em> desenvolvimento Web</em> especificamente para as linguagens<abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. <br>
+                Bora para o desafio.
+            </p>
+        </section>
+        <!--Pergunta-1-->
+        <section>
+            <h2>Segue um Quiz interativo para mostrar as minhas habilidades relacionadas </h2>
+            <form>
+                <input type="radio" value="Pyton" id="p1a" name="pergunta1">
+                <label for="p1a">Pyton</label><br>
+                <input type="radio" value="Ruby" id="p1b" name="pergunta1">
+                <label for="p1b">Ruby</label><br>
+                <input type="radio"value="JS" id="p1c" name="pergunta1">
+                <label for="p1c">JS</label>
+            </form>
+        </section>
+        <!--Pergunta dois-->
+        <section>
+            <h2>Pergunta 2: Qual o Framework que foi utlizado nas aulas de Front_End:_____</h2>
+            <input type="text" id="p2" name="pergunta2" placeholder="Digite a sua resposta">
+        </section>
+        <!--Pergunta três-->
+        <!--Senhas-->
+        <section>
+            <h2>Digite a senha do SIGA</h2>
+            <form>
+                <input type="password" id="p3" name="Pergunta3" placeholder="Digite a senha:">
+            </form>
+        </section>
+        <!--Pergunta quatro-->
+        <!--Seleção Multipla-->
+        <section>
+            <h2>Qual a data de inicio do Curso Big Data no Agronegocio</h2>
+            <form>
+                <input type="date" id="p4" name="Pergunta4">
+            </form>
+        </section>
+        <!--Pergunta 5-->
+        <!--Seleção Multipla-->
+        <section>
+            <h2>Marque as linguagens de programção utilizadas no curso Big Data</h2>
+            <form>
+            <input type="checkbox" id="p5a" name="pergunta5" value="Javascript">
+            <label for="p5a">Javascript</label><br>
+            <input type="checkbox" id="p5b" name="pergunta5" value="Java">
+            <label for="p5b">Java</label><br>
+            <input type="checkbox" id="p5c" name="pergunta5" value="Pyton">
+            <label for="p5c">Pyton</label><br>
+            <input type="checkbox" id="p5d" name="pergunta5" value="C#">
+            <label for="p5d">C#</label>
+            </form>
+        </section>
+        <!--Pergunta 6-->
+        <section>
+            <h2>Faça o upload de um arquivo contendo código HTML</h2>
+            <form>
+                <input type="file" id="p6" name="Pergunta6">
+            </form>
+        </section> 
+        <!--Pergunta 7-->
+        <section>
+            <h2>Selecione o atributo que define o seu tipo:</h2>
+            <form>
+                <select name="Pergunta7" id="p7">
+                    <option value="id">ID</option>
+                    <option value="type">TYPE</option>
+                    <option value="placeholder">PLACEHOLDER</option>
+                </select>
+            </form>
+        </section>
+        <!--Pergunta 8-->
+        <!--Adicionar imagem-->
+        <section>
+            <h2>Qual a imagem representa o curso</h2>
+        <figure>
+            <img src="./img/Front-end.png" alt="Logo Tipo-Front-End"><br>
+            <figcaption>Figura 1: Logotipo</figcaption>
+        </figure>
+            <input type="text" id="p8" name="Pergunta8" placeholder="Qual é ...">
+        </section>
+        <!--Tabela de Pontuação-->
+        <section>
+            <h2>Tabela de Pontuação</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                    <th>Pontuação</th>
+                    <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>0-2</td> <td> Nota Baixa</td>
+                </tr>
+                <tr>
+                    <td>3-4</td> <td>Ainda da para melhorar</td>
+                </tr>
+                <tr>
+                    <td>5-6</td><td>Melhorando</td>
+                </tr>
+                <tr>
+                    <td>7-8</td><td>Perfeito</td>
+                </tr>
+                <tr>
+                    <td>9-10</td><td>Ótimo</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">FIM</td>
+                </tr>
+            </tfoot>
+            </table>
+            <!--Listas-->
+            <!--Lista de Resposta-->
+            <section>
+                <h2>Verifique a sua nota</h2>
+                <details>
+                    <summary>Click aqui para ver a sua resposta</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>Dominio</li>
+                    <li>sotbuhoitj</li>
+                    <li>1991</li>
+                    <li>JS e JAVA</li>
+                    <li>Arquivo de extensão .html</li>
+                    <li>Atributo TYPE</li>
+                    <li>JAVA</li>
+                </ol>
+            </details>
+            </section>
+            <section>
+                <h2>Digite o feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações sobre este contato</legend>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comments">Cometários</label><br>
+                    <textarea id="comments" name="comments" rows="5" cols="100" placeholder="Digite o seu comentátio"></textarea>
+                    <button onclick="alert('Enviado!!')">Enviar</button>
+                </fieldset>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Quiz de programadores. Todos os direitos reservados</p>
+        <p>Para conhecer mais sobre mim: <a href="C:\Users\wbcqu\OneDrive\Área de Trabalho\Fatec\Front\SobreMim\RenatoQueiroz.html" target="_blank">CLIQUE AQUI</a></p>
+    </footer>
+    
+</body>
+</html>
